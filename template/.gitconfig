@@ -1,0 +1,5 @@
+[core]
+  editor = vim
+  excludesfile = /home/devuser/.gitignore_global
+[color]
+  ui = auto
