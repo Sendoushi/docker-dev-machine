@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"DocBlockr",
+		"Dracula Color Scheme",
+		"EditorConfig",
+		"File Navigator",
+		"Gofmt",
+		"GoGuru",
+		"HTML-CSS-JS Prettify",
+		"Package Control",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-golint",
+		"SublimeLinter-gotype",
+		"SublimeLinter-govet",
+		"TrailingSpaces",
+		"TypeScript"
+	]
+}

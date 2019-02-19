@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/sendoushi/work/src/gitlab.com/sendoushi/myfocus-calendar'
+let g:netrw_dirhist_2='/home/sendoushi/work/src/gitlab.com/sendoushi/myfocus-docker'
+let g:netrw_dirhist_3='/home/sendoushi/work/src/bitbucket.org/boappa/bo-app'
+let g:netrw_dirhist_4='/home/sendoushi/work/src/bitbucket.org/boappa/bo-api'
