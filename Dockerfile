@@ -84,8 +84,6 @@ USER ${HOST_USER}
 WORKDIR /home/${HOST_USER}
 
 COPY ./template/.config /home/${HOST_USER}/.config
-COPY ./template/.config/nvim /home/${HOST_USER}/.config/nvim
-COPY ./template/.config/sublime-text-3 /home/${HOST_USER}/.config/sublime-text-3
 COPY ./template/.gitconfig /home/${HOST_USER}/.gitconfig
 COPY ./template/.gitignore_global /home/${HOST_USER}/.gitignore_global
 COPY ./template/.tmux.conf /home/${HOST_USER}/.tmux.conf
