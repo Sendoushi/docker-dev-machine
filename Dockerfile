@@ -96,9 +96,10 @@ RUN echo "" >> /home/${HOST_USER}/.bashrc && \
   echo "  . /home/${HOST_USER}/.userrc;" >> /home/${HOST_USER}/.bashrc && \
   echo "fi" >> /home/${HOST_USER}/.bashrc;
 
-# ENV LANG en_GB.UTF-8
-# ENV LANGUAGE en_GB:en
-# ENV LC_ALL en_GB.UTF-8
+# ENV LANG en_US.UTF-8
+# ENV LANGUAGE en_US:en
+# ENV LC_ALL en_US.UTF-8
+# ENV LC_CTYPE en_US.UTF-8
 ENV SHELL /bin/bash
 
 # set the work folder

@@ -21,6 +21,7 @@ run: ## Run the docker
 		--volume="$(PWD)/$(XAUTH)":"$(PWD)/$(XAUTH)":ro \
 		--env="XAUTHORITY=$(PWD)/$(XAUTH)" \
 		--env="DISPLAY" \
+		--ipc host \
 		$(DOCKER_NAME)
 
 help: ## Display this help screen
